@@ -18,8 +18,23 @@ macOS 素材管理应用 · 公开内测版
 下载页面和更新文件是公开的，任何拿到链接的人都可以下载；它不是带邀请验证的私密分发。
 浏览器扩展目前仍需在浏览器中单独安装、重新加载，不随应用升级自动刷新。
 
+## 浏览器扩展（Chrome / Edge）
+
+**[下载 Eagle Swift 采集助手 0.6.2](https://github.com/Yeung9203/eagle-releases/releases/latest/download/EagleSwift-Collector.zip)**
+
+1. 下载并解压 ZIP，把 `EagleSwift-Collector` 文件夹放在固定位置，安装后不要删除。
+2. Chrome 地址栏输入 `chrome://extensions`，Edge 输入 `edge://extensions`。开启「开发者模式」，点击「加载已解压的扩展程序」，选择该文件夹。
+3. 打开 Eagle Swift，进入「设置 → 采集与自动导入」，复制浏览器连接码。
+4. 打开浏览器扩展的「设置」，粘贴连接码并连接，然后刷新要采集的网页。
+
+此版本包含图片自动命名、拖拽收藏、批量采集和网页截图。最低需要 Chromium 116，不支持 Safari。扩展更新需替换原文件夹内容后手动「重新加载」；桌面应用的自动更新不会替换单独下载的扩展。详细说明见 ZIP 内 README。
+
+安装操作参考：[Chrome 官方说明](https://developer.chrome.com/docs/extensions/get-started/tutorial/hello-world#load-unpacked)、[Edge 官方说明](https://learn.microsoft.com/en-us/microsoft-edge/extensions/getting-started/extension-sideloading)。
+
 ## 下载校验
 
 DMG 安装文件提供 Eagle-Swift.dmg.sha256 校验值。应用内更新会自动验证更新目录和 ZIP 安装包的签名。
 
-此仓库提供安装包、更新说明和更新目录。
+扩展下载包另提供 EagleSwift-Collector.zip.sha256 校验值。
+
+此仓库提供安装包、浏览器扩展、安装说明和更新目录。

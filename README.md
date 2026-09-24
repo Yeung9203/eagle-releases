@@ -7,6 +7,12 @@ macOS 素材管理工具 · 免费内测
 | **[下载 Mac 应用](https://github.com/Yeung9203/poqo-releases/releases/latest/download/Poqo.dmg)** | Apple 芯片 Mac · macOS 14 及以上 |
 | **[下载浏览器扩展](https://github.com/Yeung9203/poqo-releases/releases/latest/download/Poqo-Collector.zip)** | Chrome / Edge 116 及以上 |
 
+## AI 图片搜索
+
+应用本体保持轻量。首次在「设置 → AI 搜索」开启时，自动下载运行组件（约 78 MB）和模型（约 1.8 GB）；支持暂停续传，安装后共占约 2.24 GB。不开启 AI，无需下载这部分文件。
+
+下载完成后可离线搜索图片内容、风格或感觉。组件和模型由所有资料库共用，更新应用无需重复下载。
+
 ## 安装
 
 **Mac 应用：** 双击打开下载的 DMG，把 Poqo 拖进右侧「应用程序」，复制完成后打开。以后点击应用左下角的蓝色按钮更新。
